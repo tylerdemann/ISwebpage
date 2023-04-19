@@ -1,0 +1,81 @@
+/* Define font color styles */
+.body-text {
+    color: #333;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.image-gallery{
+    width: 50%;
+}
+
+.tableauPlaceholder{
+    width: 50%;
+    height: 50%;
+}
+
+/* Define font family styles */
+.heading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Define custom background color */
+body {
+    background-color: #abd7fb;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Define custom background image */
+.container {
+    background-image: url('soccer_background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Define position and styles for divs */
+.sidebar {
+    width: 25%;
+    float: left;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #EFEFEF;
+}
+
+.content {
+    width: 75%;
+    float: left;
+    padding: 10px;
+}
+
+/* Define styles for unordered list */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Define styles for ordered list */
+ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+/* Define styles for anchor link */
+.anchor-link {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+/* Define styles for embedded YouTube video */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
+}
